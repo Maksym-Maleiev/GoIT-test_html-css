@@ -1,1 +1,1 @@
-# GoIT-test_html-css
+# HTML/CSS_modul-1
