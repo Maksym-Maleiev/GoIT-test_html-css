@@ -1,0 +1,9 @@
+.warning {
+  background-color: white;
+  color: red;
+}
+
+#inline {
+  background-color: teal;
+  color: white;
+}
