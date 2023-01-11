@@ -1,0 +1,17 @@
+.btn {
+  border: none;
+  padding: 0.25rem 1.25rem;
+}
+
+.link {
+  text-decoration: none;
+  color: navy;
+}
+
+.btn.active {
+  color: red;
+}
+
+.link.active {
+  font-weight: 700;
+}
