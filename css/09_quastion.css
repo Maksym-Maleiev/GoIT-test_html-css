@@ -1,0 +1,7 @@
+[type] {
+  color: white;
+}
+
+button[type="reset"] {
+  color: green;
+}
