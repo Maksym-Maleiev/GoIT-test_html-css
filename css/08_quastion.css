@@ -1,0 +1,10 @@
+.link {
+  text-decoration: none;
+  color: navy;
+  opacity: 0.5;
+}
+
+.link:hover,
+.link:focus {
+  opacity: 1;
+}
