@@ -1,0 +1,11 @@
+.link {
+  text-decoration: none;
+}
+
+[href^="./"] {
+  color: red;
+}
+
+[href^="https"] {
+  color: navy;
+}
