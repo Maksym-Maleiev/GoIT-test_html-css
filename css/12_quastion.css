@@ -1,0 +1,11 @@
+.link {
+  text-decoration: none;
+}
+
+[href*="about"] {
+  color: green;
+}
+
+[href*="com"] {
+  color: orangered;
+}
