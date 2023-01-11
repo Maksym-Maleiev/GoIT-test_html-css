@@ -1,0 +1,11 @@
+.link {
+  text-decoration: none;
+}
+
+[href$="html"] {
+  color: green;
+}
+
+[href$="css"] {
+  color: orangered;
+}
