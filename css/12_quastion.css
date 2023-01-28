@@ -1,0 +1,11 @@
+.items {
+  letter-spacing: 0.25rem;
+}
+
+.item-less {
+  letter-spacing: -0.1rem;
+}
+
+.item-normal {
+  letter-spacing: normal;
+}
