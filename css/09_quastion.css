@@ -1,0 +1,20 @@
+body {
+  font-size: 36px;
+  padding: 1rem;
+}
+
+.up {
+  text-decoration: overline wavy red;
+}
+.through {
+  text-decoration: line-through dashed green;
+}
+.down {
+  text-decoration: underline solid blue;
+}
+.no {
+  text-decoration: none;
+}
+.combi {
+  text-decoration: underline overline double grey;
+}
