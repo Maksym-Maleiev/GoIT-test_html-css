@@ -1,0 +1,9 @@
+.parent {
+  background-color: teal;
+  margin-bottom: 1rem;
+}
+
+.child {
+  background-color: salmon;
+  width: 50%;
+}
