@@ -1,0 +1,10 @@
+.parent {
+  background: teal;
+  margin-bottom: 1rem;
+}
+
+.child {
+  width: 2%;
+  min-width: 200px;
+  background: salmon;
+}
