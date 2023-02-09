@@ -1,0 +1,23 @@
+body {
+  font-size: 20px;
+}
+
+.container {
+  width: 360px;
+  margin: auto;
+  padding-top: 15px;
+  background: burlywood;
+  font-size: 0;
+}
+
+.box {
+  width: 60px;
+  margin: 0 15px 15px;
+  height: 75px;
+  line-height: 75px;
+  background-color: teal;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+}
