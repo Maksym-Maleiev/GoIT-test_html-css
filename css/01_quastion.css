@@ -1,0 +1,22 @@
+body {
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 480px;
+  margin: auto;
+  padding: 15px;
+  background: burlywood;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  min-height: 75px;
+  background-color: teal;
+  color: #fff;
+}
