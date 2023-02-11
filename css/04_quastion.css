@@ -1,0 +1,22 @@
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 480px;
+  margin: auto;
+  padding: 15px;
+  background: burlywood;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+}
+
+.nav-menu_link {
+  margin: 0 15px;
+}
