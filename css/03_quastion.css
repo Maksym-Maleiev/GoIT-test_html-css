@@ -1,0 +1,24 @@
+body {
+  font-size: 20px;
+}
+
+.container {
+  width: 480px;
+  margin: auto;
+  padding: 15px 15px 0;
+  background: burlywood;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 130px;
+  min-height: 75px;
+  margin-bottom: 15px;
+  background-color: teal;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
