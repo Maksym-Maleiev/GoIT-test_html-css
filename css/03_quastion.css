@@ -1,0 +1,17 @@
+.container-fluid {
+  height: 200px;
+  background-image: url('https://ac.goit.global/img/photo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  max-width: 480px;
+  height: 100%;
+  margin: auto;
+  padding-top: 2rem;
+  text-align: center;
+  color: #fff;
+  background-color: hsla(0, 0%, 0%, 0.1);
+}
