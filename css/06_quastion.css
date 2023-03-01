@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  padding-top: 15px;
+}
+.images {
+  border: 1px solid gold;
+  margin: 0 15px 15px;
+
+  width: 240px;
+  height: 320px;
+  object-fit: cover;
+}
