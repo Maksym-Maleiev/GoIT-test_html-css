@@ -1,0 +1,5 @@
+body {
+  min-height: 100vh;
+  background: repeating-linear-gradient(#bbb 1px, transparent 2px, transparent 28px),
+    repeating-linear-gradient(90deg, #bbb 1px, transparent 2px, transparent 28px);
+}
