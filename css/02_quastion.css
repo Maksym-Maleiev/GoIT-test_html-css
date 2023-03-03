@@ -1,0 +1,41 @@
+body {
+  margin: 20px;
+}
+
+:root {
+  --heat-color: orangered;
+  --cold-color: navy;
+}
+
+.circle-box {
+  --diametre: 40px;
+  width: var(--diametre);
+  height: var(--diametre);
+  border-radius: 50%;
+  background-color: var(--heat-color);
+}
+
+.square-box {
+  --diametre: 60px;
+  width: var(--diametre, 60px);
+  height: var(--diametre, 60px);
+  background-color: var(--cold-color);
+}
+
+/* ------------------------- */
+
+.comment {
+  text-decoration: none;
+  color: green;
+  font-family: sans-serif;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+}
+.comment-icon {
+  --icon-color: currentColor;
+  margin-right: 0.5rem;
+}
+.comment:hover {
+  color: orangered;
+}
