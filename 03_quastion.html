@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/03_quastion.css" />
+  </head>
+  <body>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      aria-hidden="true"
+      style="position: absolute; width: 0; height: 0"
+      overflow="hidden"
+    >
+      <defs>
+        <symbol id="icon-pen" viewBox="0 0 32 32">
+          <path
+            fill="var(--icon-color, #000)"
+            d="M12 20l4-2 14-14-2-2-14 14-2 4zM9.041 27.097c-0.989-2.085-2.052-3.149-4.137-4.137l3.097-8.525 4-2.435 12-12h-6l-12 12-6 20 20-6 12-12v-6l-12 12-2.435 4z"
+          />
+        </symbol>
+        <symbol id="icon-search" viewBox="0 0 32 32">
+          <path
+            fill="var(--icon-color, #000)"
+            d="M31.008 27.231l-7.58-6.447c-0.784-0.705-1.622-1.029-2.299-0.998 1.789-2.096 2.87-4.815 2.87-7.787 0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12c2.972 0 5.691-1.081 7.787-2.87-0.031 0.677 0.293 1.515 0.998 2.299l6.447 7.58c1.104 1.226 2.907 1.33 4.007 0.23s0.997-2.903-0.23-4.007zM12 20c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z"
+          />
+        </symbol>
+        <symbol fill="var(--icon-color, #000)" id="icon-delete" viewBox="0 0 32 32">
+          <path d="M6 32h20l2-22h-24zM20 4v-4h-8v4h-10v6l2-2h24l2 2v-6h-10zM18 4h-4v-2h4v2z" />
+        </symbol>
+      </defs>
+    </svg>
+
+    <ul class="items">
+      <li class="item">
+        <svg class="icon" width="24" height="24">
+          <use href="#icon-delete"></use>
+        </svg>
+      </li>
+      <li class="item">
+        <svg class="icon" width="24" height="24">
+          <use href="#icon-pen"></use>
+        </svg>
+      </li>
+    </ul>
+  </body>
+</html>
