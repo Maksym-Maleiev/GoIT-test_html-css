@@ -1,0 +1,16 @@
+div {
+  color: green;
+  background-color: #eee;
+  font-size: 24px;
+}
+
+.icon {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  fill: currentColor;
+}
+
+div:hover {
+  color: orangered;
+}
