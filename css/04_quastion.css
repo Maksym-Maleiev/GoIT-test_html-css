@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  font-size: 24px;
+  font-family: sans-serif;
+  background: linear-gradient(hsl(189, 100%, 85%), hsl(224, 75%, 25%));
+}
+
+ul {
+  list-style: none;
+  padding: 16px;
+}
+
+header {
+  height: 96px;
+  padding: 16px;
+  background: hsl(189, 100%, 96%);
+  position: fixed;
+  width: 100%;
+}
+
+main {
+  padding-top: 96px;
+}
+
+footer {
+  padding: 16px;
+  color: #fff;
+  background: hsl(224, 45%, 10%);
+}
