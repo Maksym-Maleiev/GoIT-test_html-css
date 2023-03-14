@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  background-color: teal;
+  width: 350px;
+  margin: 8px;
+  border-radius: 16px;
+  font-size: 0;
+}
+
+.box {
+  display: inline-block;
+  width: 100px;
+  margin: 8px 8px;
+  border-radius: 8px;
+  color: #fff;
+  background-color: orange;
+  font-size: 18px;
+
+  --h: 32px;
+  height: var(--h);
+  line-height: var(--h);
+  text-align: center;
+}
+
+.by-position {
+  background-color: palevioletred;
+  position: relative;
+  top: 2rem;
+  left: 2rem;
+}
+.by-margin {
+  background-color: lightskyblue;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
