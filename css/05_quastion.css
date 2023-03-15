@@ -1,0 +1,30 @@
+body {
+  height: 200vh;
+  background: linear-gradient(hsl(189, 100%, 85%), hsl(224, 75%, 25%));
+  text-align: center;
+}
+
+.box {
+  padding: 2rem 1rem;
+  width: 360px;
+  height: 200px;
+  background-color: #fff;
+  cursor: initial;
+  margin: auto;
+}
+
+.btn,
+.box {
+  cursor: pointer;
+}
+
+.modal {
+  cursor: not-allowed;
+  display: flex;
+  background-color: hsla(0, 0%, 0%, 0.5);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
