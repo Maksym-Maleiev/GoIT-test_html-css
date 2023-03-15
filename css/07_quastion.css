@@ -1,0 +1,35 @@
+:root {
+  --s: 1.5rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding-top: 1rem;
+}
+.container-outer {
+  margin: 1rem 0 0;
+  padding: 0.5rem 0;
+  width: 75%;
+  background-color: mediumseagreen;
+}
+.container {
+  background-color: slateblue;
+  padding: 0.5rem 0;
+  width: 50%;
+  height: var(--s);
+}
+.psr {
+  position: relative;
+}
+.box {
+  border-radius: 2rem;
+  height: var(--s);
+  line-height: var(--s);
+  background-color: crimson;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
