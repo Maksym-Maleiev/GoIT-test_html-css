@@ -1,0 +1,89 @@
+.container {
+  max-width: 480px;
+  margin: 1rem auto;
+  min-height: 20px;
+  padding: 1rem;
+  box-shadow: 2px 2px 6px 3px hsla(0, 0%, 0%, 0.2);
+  position: relative;
+}
+.box {
+  --s: 20px;
+  width: var(--s);
+  height: var(--s);
+  position: absolute;
+  top: 1rem;
+}
+.left {
+  background-color: crimson;
+  left: 1rem;
+}
+.right {
+  background-color: slateblue;
+  right: 1rem;
+}
+.both {
+  background-color: teal;
+  left: 1rem;
+  right: 1rem;
+}
+
+/* ----------- */
+
+.container {
+  max-width: 480px;
+  margin: 1rem auto;
+  min-height: 20px;
+  padding: 1rem;
+  box-shadow: 2px 2px 6px 3px hsla(0, 0%, 0%, 0.2);
+  position: relative;
+}
+.box {
+  --s: 20px;
+  width: var(--s);
+  height: var(--s);
+  position: absolute;
+  top: 1rem;
+}
+.first {
+  background-color: crimson;
+  left: 1rem;
+}
+.second {
+  background-color: slateblue;
+  right: 1rem;
+}
+.container:hover .first {
+  right: 1rem;
+}
+.container:hover .second {
+  left: 1rem;
+}
+
+/* ------------ */
+
+.text {
+  position: relative;
+  text-align: center;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: #f38181;
+}
+.effect {
+  position: relative;
+}
+.effect::after {
+  content: '';
+  width: 0;
+  height: 2px;
+  position: absolute;
+  bottom: -4px;
+  right: 0;
+  background: #f38181;
+  transition: width 0.5s, left 0.5s;
+}
+
+.effect:hover::after {
+  width: 100%;
+  left: 0;
+}
