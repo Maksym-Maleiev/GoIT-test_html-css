@@ -1,0 +1,20 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.box {
+  display: inline-block;
+  --r: 90px;
+  width: var(--r);
+  height: var(--r);
+  border-radius: 50%;
+  background: crimson;
+  cursor: pointer;
+  transition: 0.8s all ease;
+}
+
+.box:hover {
+  border-radius: 0;
+  background: slateblue;
+}
