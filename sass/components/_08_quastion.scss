@@ -1,0 +1,21 @@
+body {
+  text-align: center;
+}
+
+$rgb: (
+  "red": #f00,
+  "green": #080,
+  "blue": #00f,
+);
+
+label[for="id-red"] {
+  color: map-get($rgb, "red");
+}
+
+label[for="id-green"] {
+  color: map-get($rgb, "green");
+}
+
+label[for="id-blue"] {
+  color: map-get($rgb, "blue");
+}
