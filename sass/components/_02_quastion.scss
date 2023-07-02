@@ -1,0 +1,24 @@
+/* palette */
+$blue: #6610f2;
+$lightBlue: #007bff;
+$white: #fff;
+
+.up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $white;
+  background-color: $lightBlue;
+  border: #6610f2;
+  cursor: pointer;
+  border-radius: 50%;
+  /* Change code under line */
+  $diameter: 80px;
+  width: $diameter;
+  height: $diameter;
+}
+
+.up:hover,
+.up:focus {
+  background-color: $blue;
+}
