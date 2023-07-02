@@ -1,0 +1,37 @@
+// Example_1
+@mixin button($size) {
+  padding: 0.25 * $size 1.75 * $size;
+  font-size: $size;
+}
+
+button {
+  text-transform: uppercase;
+}
+
+.small-btn {
+  @include button(16px);
+}
+
+.middle-btn {
+  @include button(20px);
+}
+
+.big-btn {
+  @include button(28px);
+}
+
+// Example_2
+@mixin center($width, $height) {
+  position: absolute;
+  width: $width;
+  height: $height;
+  top: 50%;
+  left: 50%;
+  margin-top: $height / -2;
+  margin-left: $width / -2;
+}
+
+.box {
+  background: gold;
+  @include center(100px, 50px);
+}
