@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <form action="javascript:void(0);" id="id-radio">
+      <div>
+        <label for="id-red">red</label>
+        <label for="id-green">green</label>
+        <label for="id-blue">blue</label>
+      </div>
+      <div>
+        <input id="id-red" name="colors" type="radio" value="red" />
+        <input id="id-green" name="colors" type="radio" value="green" />
+        <input id="id-blue" name="colors" type="radio" value="blue" />
+      </div>
+    </form>
+
+    <button form="id-radio" type="submit">Отправить</button>
+    <button form="id-radio" type="reset">Обновить</button>
+  </body>
+</html>
