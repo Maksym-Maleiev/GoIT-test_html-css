@@ -1,0 +1,28 @@
+/* palette */
+$blue: #6610f2;
+$lightBlue: #007bff;
+$white: #fff;
+
+/* Change code under line */
+@mixin circle($diameter) {
+  width: $diameter;
+  height: $diameter;
+  border-radius: 50%;
+}
+
+.up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $white;
+  background-color: $lightBlue;
+  border: #6610f2;
+  cursor: pointer;
+  /* Chenge code under line */
+  @include circle(100px);
+}
+
+.up:hover,
+.up:focus {
+  background-color: $blue;
+}
