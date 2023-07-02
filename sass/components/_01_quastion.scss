@@ -1,0 +1,18 @@
+/* palette */
+
+$blue: #6610f2;
+$lightBlue: #007bff;
+$white: #fff;
+
+.btn {
+  padding: 0.25rem 1.75rem;
+  color: $white;
+  background-color: $lightBlue;
+  border: $blue;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: $blue;
+}
