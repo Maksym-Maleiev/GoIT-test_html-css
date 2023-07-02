@@ -1,0 +1,29 @@
+/* palette */
+$blue: #6610f2;
+$lightBlue: #007bff;
+$white: #fff;
+
+/* Change code under line */
+%circle {
+  $diameter: 80px;
+  width: $diameter;
+  height: $diameter;
+  border-radius: 50%;
+}
+
+.up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $white;
+  background-color: $lightBlue;
+  border: #6610f2;
+  cursor: pointer;
+  /* Add code under line */
+  @extend %circle;
+}
+
+.up:hover,
+.up:focus {
+  background-color: $blue;
+}
