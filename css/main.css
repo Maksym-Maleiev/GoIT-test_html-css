@@ -1,0 +1,186 @@
+/* palette */
+.btn {
+  padding: 0.25rem 1.75rem;
+  color: #fff;
+  background-color: #007bff;
+  border: #6610f2;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #6610f2;
+}
+
+/* palette */
+.up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  background-color: #007bff;
+  border: #6610f2;
+  cursor: pointer;
+  border-radius: 50%;
+  /* Change code under line */
+  width: 80px;
+  height: 80px;
+}
+
+.up:hover,
+.up:focus {
+  background-color: #6610f2;
+}
+
+/* palette */
+.circle, .up {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  background-color: #007bff;
+  border: #6610f2;
+  cursor: pointer;
+  /* Add code under line */
+}
+
+.up:hover,
+.up:focus {
+  background-color: #6610f2;
+}
+
+/* palette */
+/* Change code under line */
+.up {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  background-color: #007bff;
+  border: #6610f2;
+  cursor: pointer;
+  /* Add code under line */
+}
+
+.up:hover,
+.up:focus {
+  background-color: #6610f2;
+}
+
+/* palette */
+/* Change code under line */
+.up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  background-color: #007bff;
+  border: #6610f2;
+  cursor: pointer;
+  /* Chenge code under line */
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.up:hover,
+.up:focus {
+  background-color: #6610f2;
+}
+
+label span {
+  color: #888;
+}
+
+label:focus-within span {
+  color: green;
+}
+
+label span {
+  color: #888;
+}
+label:focus-within span {
+  color: green;
+}
+
+body {
+  text-align: center;
+}
+
+label[for=id-red] {
+  color: #f00;
+}
+
+label[for=id-green] {
+  color: #080;
+}
+
+label[for=id-blue] {
+  color: #00f;
+}
+
+button {
+  text-transform: uppercase;
+}
+
+.small-btn {
+  padding: 4px 28px;
+  font-size: 16px;
+}
+
+.middle-btn {
+  padding: 5px 35px;
+  font-size: 20px;
+}
+
+.big-btn {
+  padding: 7px 49px;
+  font-size: 28px;
+}
+
+.box {
+  background: gold;
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  top: 50%;
+  left: 50%;
+  margin-top: -25px;
+  margin-left: -50px;
+}/*# sourceMappingURL=main.css.map */
