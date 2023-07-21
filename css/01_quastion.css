@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 2vmax 2vmin;
+  font-size: calc(0.8rem + 2vmax);
+  background: slateblue;
+  color: #fff;
+}
