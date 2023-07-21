@@ -1,0 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.full-width {
+  width: 100vw;
+  height: calc(100vw * 9 / 21);
+}
