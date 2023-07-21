@@ -1,0 +1,73 @@
+/* Responsive */
+
+/* .container {
+  width: 90%;
+  min-height: 100px;
+  padding: 1rem 0;
+  background-color: teal;
+}
+@media screen and (min-width: 350px) {
+  .container {
+    width: 60%;
+    background-color: slateblue;
+  }
+}
+@media screen and (min-width: 550px) {
+  .container {
+    width: 30%;
+    background-color: indigo;
+  }
+} */
+
+/* ---------------------------------- */
+
+/* Adaptive */
+
+/* .container {
+  width: 180px;
+  min-width: 280px;
+  min-height: 100px;
+  padding: 1rem 0;
+  background-color: teal;
+}
+@media screen and (min-width: 350px) {
+  .container {
+    width: 270px;
+    background-color: slateblue;
+  }
+}
+@media screen and (min-width: 550px) {
+  .container {
+    width: 320px;
+    background-color: indigo;
+  }
+} */
+
+/* ------------------------------------ */
+
+.container-fluid {
+  padding: 1rem 0;
+  background-color: teal;
+}
+.container {
+  min-height: 100px;
+  width: 320px;
+  margin: auto;
+  background-color: antiquewhite;
+}
+@media screen and (min-width: 550px) {
+  .container-fluid {
+    background-color: slateblue;
+  }
+  .container {
+    width: calc(550px - 20px);
+    background-color: lavender;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .container {
+    width: calc(960px - 20px);
+    background-color: beige;
+  }
+}
