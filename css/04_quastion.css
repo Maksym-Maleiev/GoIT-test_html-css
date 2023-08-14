@@ -1,0 +1,35 @@
+.image-wrapper {
+  margin: 5px;
+  box-shadow: 2px 2px 2px 2px hsla(0, 0%, 0%, 0.2);
+}
+.image {
+  display: block;
+  width: 100%;
+  border: 1px solid gold;
+}
+
+.image-description {
+  padding: 1rem;
+  border: 1px solid gold;
+}
+
+@media screen and (min-width: 540px) {
+  .image-wrapper {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .image-description,
+  .image {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .image-description {
+    width: 30%;
+  }
+  .image {
+    width: 70%;
+  }
+}
